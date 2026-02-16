@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "openmm-build-and-install",
+    "openmm-api-and-scripting",
+    "openmm-developer-guide",
+    "openmm-getting-started",
+    "openmm-simulation-workflows",
+    "openmm-docs-source"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/openmm-build-and-install.md",
+    "skills/.evidence/openmm-api-and-scripting.md",
+    "skills/.evidence/openmm-developer-guide.md",
+    "skills/.evidence/openmm-getting-started.md",
+    "skills/.evidence/openmm-simulation-workflows.md",
+    "skills/.evidence/openmm-docs-source.md"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "compiled_package_id": "openmm",
+  "evidence": {
+    "core_skills": [
+      "openmm-build-and-install",
+      "openmm-api-and-scripting",
+      "openmm-developer-guide",
+      "openmm-getting-started",
+      "openmm-simulation-workflows",
+      "openmm-docs-source"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/openmm-build-and-install.md",
+      "skills/.evidence/openmm-api-and-scripting.md",
+      "skills/.evidence/openmm-developer-guide.md",
+      "skills/.evidence/openmm-getting-started.md",
+      "skills/.evidence/openmm-simulation-workflows.md",
+      "skills/.evidence/openmm-docs-source.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs-source"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary documentation is in docs-source (non-default docs directory name).",
+      "Tutorial and runnable usage material is under examples.",
+      "Tests are distributed across core tests, platform backends, and plugin subtrees.",
+      "libraries includes vendored third-party code used by OpenMM builds."
+    ],
+    "package_name": "openmm",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "openmmapi",
+      "platforms",
+      "plugins",
+      "serialization",
+      "wrappers",
+      "libraries",
+      "olla"
+    ],
+    "test_dirs": [
+      "tests",
+      "serialization/tests",
+      "wrappers/python/tests",
+      "platforms/reference/tests",
+      "platforms/cpu/tests",
+      "platforms/cuda/tests",
+      "platforms/opencl/tests",
+      "platforms/hip/tests",
+      "plugins/amoeba/tests",
+      "plugins/amoeba/serialization/tests",
+      "plugins/amoeba/platforms/reference/tests",
+      "plugins/amoeba/platforms/cuda/tests",
+      "plugins/amoeba/platforms/opencl/tests",
+      "plugins/amoeba/platforms/hip/tests",
+      "plugins/drude/tests",
+      "plugins/drude/serialization/tests",
+      "plugins/drude/platforms/reference/tests",
+      "plugins/drude/platforms/cuda/tests",
+      "plugins/drude/platforms/opencl/tests",
+      "plugins/drude/platforms/hip/tests",
+      "plugins/rpmd/tests",
+      "plugins/rpmd/platforms/reference/tests",
+      "plugins/rpmd/platforms/cuda/tests",
+      "plugins/rpmd/platforms/opencl/tests",
+      "plugins/rpmd/platforms/hip/tests",
+      "plugins/cpupme/tests"
+    ],
+    "tutorial_dirs": [
+      "examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmm-openmm",
+  "validation": {
+    "core_skills_checked": [
+      "openmm-build-and-install",
+      "openmm-api-and-scripting",
+      "openmm-examples-and-tutorials",
+      "openmm-developer-guide",
+      "openmm-getting-started",
+      "openmm-simulation-workflows"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmm-openmm/skills/openmm-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmm-openmm/skills/openmm-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmm-openmm/skills/openmm-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmm-openmm/skills/openmm-developer-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmm-openmm/skills/openmm-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmm-openmm/skills/openmm-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "openmm-index"
+    ],
+    "ok": false,
+    "skills_total": 10,
+    "source_links_total": 134,
+    "topic_skills": 9,
+    "warnings": []
+  }
+}
